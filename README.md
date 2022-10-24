@@ -15,7 +15,7 @@
 
 ## About
 
-scorpion : A simple python script get metadata from a image file.
+scorpion : A python script get metadata from a image file.
 
 spider: is a tool for web scraping and crawling. It is a simple tool that can be used to extract data from websites. It can be used to extract data from websites and save it in a file or database.
 
@@ -23,7 +23,7 @@ spider: is a tool for web scraping and crawling. It is a simple tool that can be
 
 ## Features
 
-- [x] Extract data from multiple websites and save it in a image, text or csv file
+- [x] Extract imasge from multiple websites
 
 - [x] extract metadata from image files
 
