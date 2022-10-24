@@ -65,16 +65,10 @@ python archnida.py
 ## Usage
 
 ```bash
-
-usage: spyder.py [-h] [-u URL] [-level] [-p path]
-usage: scorpion.py [-v] [-img imagen]
 optional arguments:
-  -h, --help            show this help message and exit
-  -u URL, --url URL     URL to extract data
-  -l level, --level level
-                        Level of extraction
-  -p path, --path path  Path to save data
 
+usage: spyder.py [-h help] [-u URL] [-level] [-p path]
+usage: scorpion.py [-h help][-v] [-img imagen]
 
 ```
 
