@@ -15,17 +15,17 @@
 
 ## About
 
-Arachinda is a tool for web scraping and data extraction. It is a simple and easy to use tool that allows you to extract data from websites and save it in a image, text or csv file.
+scorpion : A simple python script get metadata from a image file.
+
+spider: is a tool for web scraping and crawling. It is a simple tool that can be used to extract data from websites. It can be used to extract data from websites and save it in a file or database.
+
+
 
 ## Features
 
-- [x] Extract data from websites
-
-- [x] Save data in a image, text or csv file
-
-- [x] Extract data from multiple websites
-
 - [x] Extract data from multiple websites and save it in a image, text or csv file
+
+- [x] extract metadata from image files
 
 ## Installation
 
@@ -66,16 +66,15 @@ python archnida.py
 
 ```bash
 
-usage: archnida.py [-h] [-u URL] [-f FILE] [-o OUTPUT] [-t TYPE] [-s]
-
+usage: spyder.py [-h] [-u URL] [-level] [-p path]
+usage: scorpion.py [-v] [-img imagen]
 optional arguments:
   -h, --help            show this help message and exit
   -u URL, --url URL     URL to extract data
-  -f FILE, --file FILE  File with URLs to extract data
-  -o OUTPUT, --output OUTPUT
-						Output file
-  -t TYPE, --type TYPE  Output file type
-  -s, --save            Save output file
+  -l level, --level level
+                        Level of extraction
+  -p path, --path path  Path to save data
+
 
 ```
 

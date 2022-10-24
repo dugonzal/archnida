@@ -27,7 +27,7 @@ class scorpion (object):
 	def parser(self):
 		parser = argparse.ArgumentParser()
 		parser.add_argument("-v", "--version", action="version", version="%(prog)s | version: 1.0.0")
-		parser.add_argument("-img", "--imgagen", help="path imagen", dest="img", required=True) # hay qwue hacer un parser de la url para que sea valida tiene que ser obligatorio
+		parser.add_argument("-img", "--imagen", help="path imagen", dest="img", required=True) # hay qwue hacer un parser de la url para que sea valida tiene que ser obligatorio
 		args = parser.parse_args()
 		return args # esto es para que devuelva los argumentos
 
