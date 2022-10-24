@@ -1,4 +1,4 @@
-<h1 aling='center'> ARACHINDA </h1>
+<h1 align='center'> ARACHINDA </h1>
 
 <p align='center'>
   <img src='https://img.shields.io/badge/Version-1.0.0-green' />
